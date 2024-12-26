@@ -1,0 +1,17 @@
+.tutorialVideoContainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50vh;
+    background: #f9f9f9;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    z-index: 500;
+}
+
+.tutorialVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 

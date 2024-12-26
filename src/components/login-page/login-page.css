@@ -1,0 +1,89 @@
+@import "../../css/colors.css";
+
+.loginPageWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 400px;
+}
+
+.loginBox h2 {
+    margin: 0 0 1.5rem;
+    text-align: center;
+    color: $motion-primary;
+}
+
+.formGroup {
+    margin-bottom: 1rem;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: $text-primary;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $ui-black-transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.errorMessage {
+    color: $error-primary;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.loginButton,
+.cancelButton {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.loginButton {
+    background: $motion-primary;
+    color: white;
+}
+
+.loginButton:hover {
+    background: $motion-tertiary;
+}
+
+.cancelButton {
+    background: $ui-tertiary;
+    color: $text-primary;
+}
+
+.cancelButton:hover {
+    background: $ui-white;
+    border: 1px solid $ui-tertiary;
+} 
